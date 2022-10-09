@@ -1,0 +1,126 @@
+* {
+    font-family: 'Nunito Sans';
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 599px) {
+    body {
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    nav {
+        background-color: #490A3D;
+        color: #fff;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 38px;
+        font-weight: 700;
+        padding: 15px;
+    }
+    nav ul, li {
+        display: none;
+    }
+    main {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      h1.title {
+        /* margin-top: 15px; */
+        display: none;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+      h2.subtitle {
+        margin-top: 15px;
+      }
+      .sobre {
+        margin-top: 15px;
+        /* display: none; */
+        /* justify-content: center */
+      }
+      .calc-area {
+        /* display: flex;
+        justify-content: space-around;
+        align-items: flex-start; */
+        margin-bottom: 30px;
+      }
+      .calc {
+        min-width: 160px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 5px;
+      }
+      .planet {
+        height: 150px;
+      }
+      .limpar {
+        height: 80px;
+      }
+      .calc-label {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        padding: 15px;
+      }
+      select, input {
+        height: 55px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        color: #490A3D;
+        font-weight: 700;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+
+      .btn {
+        /* margin-bottom: 15px; */
+        padding: 15px;
+        width: 100%;
+      }
+      .passo-a-passo {
+        background-color: #F8CA00;
+        /* display: flex;
+        justify-content: space-around; */
+        padding: 5px;
+      }
+
+      .passos {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+      }
+      .pass-a-passo h2 {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .passo-a-passo h3 {
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+      .passo-a-passo p {
+        font-size: 18px;
+      }
+      footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ececec;
+        background-color: #490A3D;
+        padding-top: 19px;
+      }
+
+}
