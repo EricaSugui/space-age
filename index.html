@@ -4,10 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Space Age - Calculadora de anos planetários.</title>
 </head>
 <body>
-    <p>teste!</p>
+    <nav>
+        <a href="./" alt="Início">Space Age</a>
+        <div class="colapse-navbar">
+            <ul class="nav-ul">
+                <li class="nav-li">Sobre esse jogo</li>
+                <li class="nav-li">Github</li>
+                <li class="nav-li">Meu blog</li>
+                <li class="nav-li">Meu LinkedIn</li>
+                <span class="nav-text">
+                    Desenvolvedora Javascript
+                </span>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1 class="title">SPACE AGE</h1>
+    </header>
+    <main>
+        <h2 class="subtitle">Calculadora de Idade por Planeta</h2>
+        <div class="sobre">
+           <p>Dê uma idade em SEGUNDOS, e o app irá calcular quantos anos
+            alguém teria no planeta selecionado.</p>
+            <p>Preencha abaixo:</p>
+        </div>
+        <div class="calc-area">
+            <div class="col calc planet">
+               <p class="calc-label">Selecione um planeta:</p>
+               <select name="planet">
+                <option value="earth">Terra</option>
+                <option value="mercury" selected>Mercúrio</option>
+                <option value="venus">Vênus</option>
+                <option value="mars">Marte</option>
+                <option value="jupiter">Júpiter</option>
+                <option value="saturn">Saturno</option>
+                <option value="uranus">Urano</option>
+                <option value="neptune">Netuno</option>
+                <option value="pluto">Plutão</option>
+              </select>
+            </div>
+
+            <div class="col calc">
+                <p class="calc-label">Insira os segundos:</p>
+                <input type="text" id="seconds" name="seconds" placeholder="quantos segundos?" class="seconds"/>
+                <button class="btn btn-calcular" id="calcular">Calcular</button>
+            </div>
+            <div class="col calc limpar">
+                <button class="btn btn-limpar" id="limpar">Limpar</button>
+            </div>
+        </div>
+        <div class="passo-a-passo">
+            <h2>Instruções:</h2>
+
+            <div class="col passos">
+                <h3>Passo 1</h3>
+                <p>Escolha o planeta</p>
+            </div>
+            <div class="col passos">
+                <h3>Passo 2</h3>
+                <p>Insira os segundos, e clique em Calcular</p>
+            </div>
+            <div class="col passos">
+                <h3>Passo 3</h3>
+                <p>Clique em Limpar para refazer com outro planeta ou outra quantidade de segundos.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        footer aqui
+    </footer>
 
 </body>
 </html>
