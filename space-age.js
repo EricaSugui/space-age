@@ -37,8 +37,6 @@ calcularButton.addEventListener("click", () => {
   calcularButton.setAttribute("disabled", true);
   limparButton.removeAttribute("disabled");
   resultado.value = finalResult;
-  console.log(finalResult);
-  console.log(currentPlanet);
 });
 
 limparButton.addEventListener("click", () => {
