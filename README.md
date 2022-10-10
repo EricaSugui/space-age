@@ -1,5 +1,9 @@
 # Space Age
 
+This App is LIVE! Go to https://ericasugui.github.io/space-age/
+
+Desktop and mobile (test with Chrome's DevTools Inspect).
+
 Welcome to Space Age on Exercism's JavaScript Track.
 If you need help running the tests or submitting your code, check out `HELP.md`.
 
@@ -46,3 +50,8 @@ youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
 ### Based on
 
 Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. - http://pine.fm/LearnToProgram/?Chapter=01
+
+### Javascript/HTML APP by
+
+Erica Daikawa (ericabot)
+:)
