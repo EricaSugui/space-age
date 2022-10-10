@@ -36,7 +36,7 @@
         <div class="calc-area">
             <div class="col calc planet">
                <p class="calc-label">Selecione um planeta:</p>
-               <select name="planet">
+               <select name="planet" id="select-planet">
                 <option value="earth">Terra</option>
                 <option value="mercury" selected>Mercúrio</option>
                 <option value="venus">Vênus</option>
@@ -51,13 +51,15 @@
 
             <div class="col calc">
                 <p class="calc-label">Insira abaixo os segundos:</p>
-                <input type="text" id="seconds" name="seconds" placeholder="quantos segundos?" class="seconds"/>
-                <button class="btn btn-calcular" id="calcular">Calcular</button>
+                <input type="text" id="seconds-input" name="seconds" placeholder="quantos segundos?" class="seconds"/>
+                <button class="btn btn-calcular" id="calcular-button">Calcular</button>
             </div>
             <div class="col calc limpar">
                 <p class="calc-label">Você teria quantos anos?</p>
-                <p class="resultado"> 31 anos na Terra.</p>
-                <button class="btn btn-limpar" id="limpar">Limpar</button>
+                <input type="text" class="resultado" id="resultado" value="" readonly>
+
+                </input>
+                <button class="btn btn-limpar" id="limpar-button">Limpar</button>
             </div>
         </div>
         <div class="instrucoes">
@@ -81,6 +83,6 @@
     <footer>
         2022 feito por Erica Akira.
     </footer>
-
+    <script src="./space-age.js"></script>
 </body>
 </html>
