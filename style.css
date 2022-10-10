@@ -126,7 +126,7 @@
         color: #fff;
 
     }
-    nav a {
+    .inicio {
         color: #fff;
         text-decoration: none;
         font-size: 38px;
@@ -146,6 +146,10 @@
     nav li {
         list-style:none;
         padding-right: 20px;
+    }
+    li a {
+        color: #fff;
+        text-decoration: none;
     }
     main {
         width: 100%;
